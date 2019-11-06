@@ -27,12 +27,12 @@ function appendKitten(name) {
   return newArray;
 }
 
-function removeLastKitten() {
-  return kittens.slice(kittens.length - 1);
-}
-
 function prependKitten(name) {
   let newArray = [...kittens];
   newArray.unshift(name);
   return newArray;
+}
+
+function removeLastKitten() {
+  return kittens.slice(kittens.length - 1);
 }
